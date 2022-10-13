@@ -5,9 +5,23 @@
 
 (defglobal defaults
   [:body
-   {:color               :#dddddd
-    :background-color    :#121213}])
+   {:color               :white
+    :background-image    "linear-gradient(60deg, #29323c 0%, #485563 100%);"}
+   :rc-selection-list-group {:color :black}])
 
 (defclass level1
   []
-  {:color :#dddddd})
+  {:color :white})
+
+(defclass level3
+  []
+  {:color :white})
+
+
+(defclass selection-list
+  []
+  {:background-color :white
+   :padding "4px"})
+
+(defclass info-button []
+  {:color :white})
